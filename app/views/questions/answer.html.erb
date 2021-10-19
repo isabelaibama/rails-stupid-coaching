@@ -1,6 +1,12 @@
 
   
-<h1>  <%= @question %> </h1>
 
-<h1>  <%= @answer %> </h1>
+
+
+<div class="question"> <h2><%= @question %></h2> </div>
+
+<div class="answer"> <h4>  <%= @answer %> </h4> </div>
+
+
+<div class="link"> <%= link_to "Send another question", ask_path %> </div>
 
